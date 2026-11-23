@@ -18,4 +18,20 @@ body {
 
 #menu {
     background: url("../images/bg_menu.png") repeat-x;
+    height: 41px;
+    padding-top: 13px;
+    position: fixed;
+    text-align: center;
+    top:0;
+    width: 100%;
+}
+
+#menu a {
+    color: #000;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #8a0a48;
 }

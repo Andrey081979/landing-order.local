@@ -57,5 +57,37 @@
         </div>
         <div class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
     </div>
+    <div id="steps">
+        <h2>Порядок работы</h2>
+        <div id="steps_table">
+            <div class="step">
+                <p class="number">01</p>
+                <p>Вы оставляете заявку</p>
+            </div>
+            <div class="step">
+                <p class="number">03</p>
+                <p>Мы готовим прототип, в который<br>Вы можете вносить коррективы</p>
+            </div>
+            <div class="step">
+                <p class="number">05</p>
+                <p>Запускаем рекламу<br>и получаем Вам первых клиентов</p>
+            </div>
+            <div class="clear"></div>
+            <div class="step">
+                <p class="number">02</p>
+                <p>Мы созваниваемся с Вами<br>и консультируем Вас, опираясь<br>на специфику Вашего бизнеса</p>
+            </div>
+            <div class="step">
+                <p class="number">04</p>
+                <p>Делаем полностью лендинг,<br>в который Вы также можете<br>вносить коррективы</p>
+            </div>
+            <div class="step">
+                <p class="number">06</p>
+                <p>Вы оплачиваете<br>стоимость лендинга,<br>а мы присылаем все<br>исходники, даём<br>доступ к уже<br>работающей<br>рекламной кампании<br>и к первым клиентам</p>
+            </div>
+            <div class="clear"></div>
+        </div> 
+        <div class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+    </div>
 </body>
 </html>

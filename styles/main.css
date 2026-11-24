@@ -36,7 +36,7 @@ body {
     color: #8a0a48;
 }
 
-header, #advantages {
+header, #advantages, #steps, #why {
     border-bottom: 3px solid #fff;
 }
 
@@ -64,24 +64,44 @@ header h2 {
     padding-top: 10px;
 }
 
-/* НАШИ ПРИЕМУЩЕСТВА */
+/* НАШИ ПРИЕМУЩЕСТВА / ПОРЯДОК РАБОТЫ */
 
-#advantages {
-    background: url("/images/advantages.png") no-repeat top center;
+#advantages, #steps {
     padding: 30px 0 15px;
     text-align: center;
 }
 
-#advantages h2 {
-    color: #00345d;
+#advantages {
+    background: url("/images/advantages.png") no-repeat top center;
+}
+
+#steps {
+    background: url("/images/steps.png") no-repeat top center;
+}
+
+#advantages h2, #steps h2 {    
     font-family: Intro;
     margin: 0;
     text-shadow: 1px 1px 2px #fff;
 }
 
+#advantages h2 {
+    color: #00345d;
+}
+
+#steps h2 {
+    color: #ab1749;
+}
+
 #advantages .button {
     margin-top: 10px;
 }
+
+#steps .button {
+    margin-top: 150px;
+}
+
+/* НАШИ ПРИЕМУЩЕСТВА */
 
 .table {
     display: table;
@@ -112,4 +132,64 @@ header h2 {
 
 .button:hover {
     background: url("/images/b_hover.png") no-repeat;
+}
+
+/* ПОРЯДОК РАБОТЫ */
+
+#steps p {
+    font-size: 88%;
+    margin: 0;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+#steps .number {
+    font-size: 200%;
+}
+
+#steps .step:nth-child(1) .number, #steps .step:nth-child(2) .number, #steps .step:nth-child(3) .number {
+    color: #ab1749;
+}
+
+#steps .step:nth-child(5) .number, #steps .step:nth-child(6) .number, #steps .step:nth-child(7) .number {
+    color: #d50000;
+    margin-top: 103px;
+}
+
+.step {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#steps_table {
+    background: url("/images/steps_icons.png") no-repeat;
+    margin: 50px auto;
+    height: 313px;
+    width: 990px;
+}
+
+#steps .step:nth-child(1) {
+    margin-left: 4px;
+}
+
+#steps .step:nth-child(2) {
+    margin-left: 162px;
+}
+
+#steps .step:nth-child(3) {
+    margin-left: 120px;
+}
+
+#steps .step:nth-child(5) {
+    margin-left: 145px;
+}
+
+#steps .step:nth-child(6) {
+    margin-left: 146px;
+}
+
+#steps .step:nth-child(7) {
+    margin-left: 176px;
 }

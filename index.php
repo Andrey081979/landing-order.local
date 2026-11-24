@@ -121,5 +121,140 @@
         </div>
         <div class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
     </div>
+    <div id="works">
+        <h2>Наши последние работы и цены на них</h2>
+        <div class="table">
+            <div class="row">
+                <div class="cell">
+                    <div class="site">
+                        <a href="images/works/site_1.jpg">
+                            <img src="images/works/site_1_s.png" alt="">
+                        </a>
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">Общая стоимость:</div>
+                            <div class="cell">15000 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Цена заявки:</div>
+                            <div class="cell">190 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Заявок в неделю:</div>
+                            <div class="cell">12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="site">
+                        <a href="images/works/site_2.jpg">
+                            <img src="images/works/site_2_s.png" alt="">
+                        </a>
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">Общая стоимость:</div>
+                            <div class="cell">10000 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Цена заявки:</div>
+                            <div class="cell">280 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Заявок в неделю:</div>
+                            <div class="cell">37</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="site">
+                        <a href="images/works/site_3.jpg">
+                            <img src="images/works/site_3_s.png" alt="">
+                        </a>
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">Общая стоимость:</div>
+                            <div class="cell">12000 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Цена заявки:</div>
+                            <div class="cell">160 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Заявок в неделю:</div>
+                            <div class="cell">48</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <div class="site">
+                        <a href="images/works/site_4.jpg">
+                            <img src="images/works/site_4_s.png" alt="">
+                        </a>
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">Общая стоимость:</div>
+                            <div class="cell">15000 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Цена заявки:</div>
+                            <div class="cell">240 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Заявок в неделю:</div>
+                            <div class="cell">15</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="site">
+                        <a href="images/works/site_5.jpg">
+                            <img src="images/works/site_5_s.png" alt="">
+                        </a>
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">Общая стоимость:</div>
+                            <div class="cell">15000 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Цена заявки:</div>
+                            <div class="cell">220 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Заявок в неделю:</div>
+                            <div class="cell">37</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="site">
+                        <a href="images/works/site_6.jpg">
+                            <img src="images/works/site_6_s.png" alt="">
+                        </a>
+                    </div>
+                    <div class="table">
+                        <div class="row">
+                            <div class="cell">Общая стоимость:</div>
+                            <div class="cell">17000 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Цена заявки:</div>
+                            <div class="cell">350 рублей</div>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Заявок в неделю:</div>
+                            <div class="cell">24</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

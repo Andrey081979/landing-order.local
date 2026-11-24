@@ -64,9 +64,9 @@ header h2 {
     padding-top: 10px;
 }
 
-/* НАШИ ПРИЕМУЩЕСТВА / ПОРЯДОК РАБОТЫ */
+/* НАШИ ПРИЕМУЩЕСТВА / ПОРЯДОК РАБОТЫ / ПОЧЕМУ */
 
-#advantages, #steps {
+#advantages, #steps, #why {
     padding: 30px 0 15px;
     text-align: center;
 }
@@ -79,7 +79,11 @@ header h2 {
     background: url("/images/steps.png") no-repeat top center;
 }
 
-#advantages h2, #steps h2 {    
+#why {
+    background: url("/images/why.png") no-repeat top center;
+}
+
+#advantages h2, #steps h2, #why h2 {    
     font-family: Intro;
     margin: 0;
     text-shadow: 1px 1px 2px #fff;
@@ -93,12 +97,20 @@ header h2 {
     color: #ab1749;
 }
 
+#why h2 {
+    color: #00345d;
+}
+
 #advantages .button {
     margin-top: 10px;
 }
 
 #steps .button {
     margin-top: 150px;
+}
+
+#why .button {
+    margin-top: 30px;
 }
 
 /* НАШИ ПРИЕМУЩЕСТВА */

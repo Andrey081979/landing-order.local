@@ -11,6 +11,24 @@
     <script type="text/javascript" src="/js/functions.js"></script>
 </head>
 <body>
+    <div id="parent_popup">
+        <div id="popup">
+            <div id="popup_close">
+                <img src="images/popup_close.png" alt="Закрыть">
+            </div>
+            <div id="popup_main">
+                <h3>Мы Вам перезвоним<br>через несколько минут</h3>
+                <form name="order" action="#" method="post">
+                    <div>
+                        <input type="text" name="phone" placeholder="Телефон">
+                    </div>
+                    <div>
+                        <input type="submit" name="order" value="Жду звонка!">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <div id="menu">
         <a href="#advantages">Наши преимущества</a>
         <a href="#steps">Порядок работы</a>

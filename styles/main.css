@@ -64,9 +64,9 @@ header h2 {
     padding-top: 10px;
 }
 
-/* НАШИ ПРИЕМУЩЕСТВА / ПОРЯДОК РАБОТЫ / ПОЧЕМУ / РАБОТЫ */
+/* НАШИ ПРИЕМУЩЕСТВА / ПОРЯДОК РАБОТЫ / ПОЧЕМУ / РАБОТЫ / ГАРАНТИЯ */
 
-#advantages, #steps, #why, #works {
+#advantages, #steps, #why, #works, #guarantee {
     padding: 30px 0 15px;
     text-align: center;
 }
@@ -85,6 +85,10 @@ header h2 {
 
 #works {
     background: url("/images/works.png") no-repeat top center;
+}
+
+#guarantee {
+    background: url("/images/guarantee.png") no-repeat top center;
 }
 
 #advantages h2, #steps h2, #why h2, #works h2 {    
@@ -111,6 +115,10 @@ header h2 {
 
 #why .button {
     margin-top: 30px;
+}
+
+#guarantee .button {
+    margin-top: 40px;
 }
 
 /* НАШИ ПРИЕМУЩЕСТВА */
@@ -235,4 +243,51 @@ header h2 {
 #works .cell .cell:nth-child(2) {
     color: #ab1749;
     text-align: left;
+}
+
+/* ГАРАНТИЯ */
+
+#guarantee_text {
+    background: url("/images/guarantee_icon.png") no-repeat left center;
+    margin: 0 auto;
+    height: 310px;
+    padding-left: 320px;
+    text-align: left;
+    width: 620px;
+}
+
+/* FOOTER */
+
+footer {
+    background: url("/images/bg_footer.png") repeat-x;
+    color: #000;
+    font-size: 90%;
+    height: 36px;
+    padding-top: 18px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p:nth-child(1) {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    float: right;
+    margin-left: 20px;
+}
+
+footer > div {
+    margin: 0 auto;
+    width: 980px;
+}
+
+footer div div:nth-child(1) {
+    float: left;
+}
+
+footer div div:nth-child(2) {
+    float: right;
 }

@@ -8,6 +8,12 @@ $(document).ready(function() {
         minWidth: 900
     });
 
+    $("#menu a:not(a.order)").on("click", function() {
+        $("html, body").stop().animate({
+            scrollTop: $($(this).attr("href")).offset().top - $("#menu").innerHeight()
+        }, DELAY);
+    });
+
     $("#popup_close img").on("click", function() {
         $("#parent_popup").hide(DELAY);
     });

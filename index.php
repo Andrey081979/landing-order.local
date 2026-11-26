@@ -7,9 +7,11 @@
     <meta name="keywords" content="Заказ лендинга, создание лендинга" /> 
     <link rel="shortout icon" type="image/x-icon" href="/favicon.ico" />
     <link type="text/css" rel="stylesheet" href="styles/main.css" />
+    <link type="text/css" rel="stylesheet" href="fancybox/jquery.fancybox.css" />
     <script type="text/javascript" src="/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="/js/inputmask.js"></script>
 	<script type="text/javascript" src="/js/jquery.inputmask.js"></script>
+	<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="/js/functions.js"></script>
 </head>
 <body>

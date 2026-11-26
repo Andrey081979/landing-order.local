@@ -2,6 +2,12 @@ const DELAY = 500;
 
 $(document).ready(function() {
 
+    $("#menu").css("width", $(window).width() + "px");
+
+    $(".site a").fancybox({
+        minWidth: 900
+    });
+
     $("#popup_close img").on("click", function() {
         $("#parent_popup").hide(DELAY);
     });

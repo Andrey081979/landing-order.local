@@ -137,16 +137,20 @@ header h2 {
     padding: 5px 50px;
 }
 
-.button {
-    background: url("/images/b.png") no-repeat;
-    color: #f9e00b;
-    cursor: pointer;
+.button, #popup input[type="submit"] {    
     font-family: Intro;
     font-size: 150%;
-    height: 52px;
+    color: #f9e00b;    
+    cursor: pointer;
     margin: 0 auto;
-    padding-top: 15px;
     text-shadow: 1px 1px 2px #000;
+
+}
+
+.button {
+    background: url("/images/b.png") no-repeat;
+    height: 52px;
+    padding-top: 15px;
     width: 517px;
 }
 
@@ -296,6 +300,7 @@ footer div div:nth-child(2) {
 
 #parent_popup {
     background: url("/images/bg_popup.png") repeat;
+    display: none;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -326,4 +331,25 @@ footer div div:nth-child(2) {
     text-align: center;
 }
 
-/*  14:40   */
+#popup input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    font-size: 120%;
+    height: 48px;
+    margin: 35px 0 0 25px;
+    padding: 0 10px;
+    width: 322px;
+}
+
+
+#popup input[type="submit"] {
+    background: url("/images/popup_b.png") no-repeat;    
+    border: none;
+    height: 68px;
+    margin: 20px 0 0 25px;
+    width: 346px;
+}
+
+#popup input[type="submit"]:hover {
+    background: url("/images/popup_b_hover.png") no-repeat;
+

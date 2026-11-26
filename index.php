@@ -7,10 +7,12 @@
     <meta name="keywords" content="Заказ лендинга, создание лендинга" /> 
     <link rel="shortout icon" type="image/x-icon" href="/favicon.ico" />
     <link type="text/css" rel="stylesheet" href="styles/main.css" />
+    <link type="text/css" rel="stylesheet" href="styles/animate.css" />
     <link type="text/css" rel="stylesheet" href="fancybox/jquery.fancybox.css" />
     <script type="text/javascript" src="/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="/js/inputmask.js"></script>
 	<script type="text/javascript" src="/js/jquery.inputmask.js"></script>
+	<script type="text/javascript" src="/js/wow.min.js"></script>
 	<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="/js/functions.js"></script>
 </head>
@@ -42,13 +44,13 @@
         <a class="order" href="#">Оформить заявку</a>
     </div>
     <header>
-        <h1>Landing Page под ключ</h1>
-        <h2>без предоплаты и с гарантией результата</h2>
+        <h1 class="wow bounceInLeft">Landing Page под ключ</h1>
+        <h2 class="wow bounceInRight">без предоплаты и с гарантией результата</h2>
     </header>
     <div id="advantages">
-        <h2>Наши преимущества</h2>
+        <h2 class="wow flipInX">Наши преимущества</h2>
         <div class="table">
-            <div class="row">
+            <div class="row wow fadeInDown">
                 <div class="cell">
                     <img src="images/a_1.png" alt="" />
                     <p>Срок разработки<br>не более 14 дней</p>
@@ -62,7 +64,7 @@
                     <p>Делаем всё под ключ</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="cell">
                     <img src="images/a_4.png" alt="" />
                     <p>Бесплатное создание рекламной<br>кампании в Яндекс.Директ<br>(рекламный бюджет уже входит<br>в стоимость создания лендинга)</p>
@@ -77,53 +79,53 @@
                 </div>
             </div>
         </div>
-        <div class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+        <div class="button wow swing">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
     </div>
     <div id="steps">
-        <h2>Порядок работы</h2>
+        <h2 class="wow flipInX">Порядок работы</h2>
         <div id="steps_table">
-            <div class="step">
+            <div class="step wow slideInLeft">
                 <p class="number">01</p>
                 <p>Вы оставляете заявку</p>
             </div>
-            <div class="step">
+            <div class="step wow slideInLeft">
                 <p class="number">03</p>
                 <p>Мы готовим прототип, в который<br>Вы можете вносить коррективы</p>
             </div>
-            <div class="step">
+            <div class="step wow slideInLeft">
                 <p class="number">05</p>
                 <p>Запускаем рекламу<br>и получаем Вам первых клиентов</p>
             </div>
             <div class="clear"></div>
-            <div class="step">
+            <div class="step wow slideInRight">
                 <p class="number">02</p>
                 <p>Мы созваниваемся с Вами<br>и консультируем Вас, опираясь<br>на специфику Вашего бизнеса</p>
             </div>
-            <div class="step">
+            <div class="step wow slideInRight">
                 <p class="number">04</p>
                 <p>Делаем полностью лендинг,<br>в который Вы также можете<br>вносить коррективы</p>
             </div>
-            <div class="step">
+            <div class="step wow slideInRight">
                 <p class="number">06</p>
                 <p>Вы оплачиваете<br>стоимость лендинга,<br>а мы присылаем все<br>исходники, даём<br>доступ к уже<br>работающей<br>рекламной кампании<br>и к первым клиентам</p>
             </div>
             <div class="clear"></div>
         </div> 
-        <div class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+        <div class="button wow swing">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
     </div>
     <div id="why">
-        <h2>Почему наши лендинги эффективны?</h2>
+        <h2 class="wow flipInX">Почему наши лендинги эффективны?</h2>
         <div class="table">
             <div class="row">
-                <div class="cell">
+                <div class="cell wow rotateIn">
                     <img src="images/w_1.png" alt="">
                     <p>Все наши лендинги оптимизированы под мобильные устройства.</p>
                 </div>            
-                <div class="cell">
+                <div class="cell wow rotateIn">
                     <img src="images/w_2.png" alt="">
                     <p>Мы используем jQuery – библиотеку JavaScript, которая позволяет делать очень приятную анимацию. Это делает Ваш лендинг более красивым и современным, что, безусловно, положительно скажется на конверсии.</p>
                 </div>            
-                <div class="cell">
+                <div class="cell wow rotateIn">
                     <img src="images/w_3.png" alt="">
                     <p>Оповещение о заявках по SMS.<br>По Вашему желанию мы сможем сделать так, чтобы сразу после заявки Вам отправлять SMS с номером телефона клиента. И Вы сразу сможете позвонить ему. Клиент будет точно приятно шокирован от Вашей скорости!</p>
                 </div>                
@@ -131,22 +133,22 @@
         </div>
         <div class="table">
             <div class="row">
-                <div class="cell">
+                <div class="cell wow rotateIn">
                     <img src="images/w_4.png" alt="">
                     <p>Оптимизация рекламной кампании.<br>Сюда входит анализ каждого ключевого запроса: удаление неэффективных, снижение цен на слабоэффективных и повышение цен на высокоэффективные с целью повышение числа клиентов. В результате, Вы гарантированно получаете максимальное число заявок при минимальной её стоимости.</p>
                 </div>            
-                <div class="cell">
+                <div class="cell wow rotateIn">
                     <img src="images/w_5.png" alt="">
                     <p>В обязательном порядке мы проводим SPLIT-тесты. Например, берётся цена и изменяется в сторону увеличения. Дальше половина клиентов видят повышенную цену, а другая половина – старую цену. И смотрится, от какой половины в итоге больше прибыль. Очень часто получается, что при увеличении цены на 50%, число заявок уменьшается лишь на 10% или не изменяется вовсе. На нашей практике даже бывали случаи, когда количество продаж становится даже больше, поэтому прибыль вырастает сильнее, чем цена.</p>
                 </div>            
             </div>
         </div>
-        <div class="button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
+        <div class="button wow swing">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
     </div>
     <div id="works">
-        <h2>Наши последние работы и цены на них</h2>
+        <h2 class="wow flipInX">Наши последние работы и цены на них</h2>
         <div class="table">
-            <div class="row">
+            <div class="row wow lightSpeedIn">
                 <div class="cell">
                     <div class="site">
                         <a href="images/works/site_1.jpg">
@@ -211,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow lightSpeedIn">
                 <div class="cell">
                     <div class="site">
                         <a href="images/works/site_4.jpg">
@@ -279,11 +281,11 @@
         </div>
     </div>
     <div id="guarantee">
-        <div id="guarantee_text">
+        <div id="guarantee_text" class="wow flipInY">
             <p>Мы гарантируем наивысшее качество своей работы. Но подобные гарантии дают все. Поэтому мы делаем очень просто: не требуем никакой предоплаты, не требуем даже денег на рекламный бюджет. Мы просто всё делаем, а потом показываем результат в виде эффективного лендинга, анализа проведённых SPLIT-тестов, полностью настроенной и оптимизированной рекламной кампании и реальных клиентов. По этой причине мы боимся не получить оплату, поскольку Вам самим будет невыгодно отказаться от всего этого. Однако, если Вам не понравится, то Вы сможете отказаться от лендинга и не платить за него.</p>
             <p>Согласитесь, что это очень выгодное предложение для Вас, так как Вы не рискуете ни копейкой.</p>
         </div>
-        <div class="button">ОФОРМИТЬ ЗАЯВКУ</div>
+        <div class="button wow swing">ОФОРМИТЬ ЗАЯВКУ</div>
     </div>
     <footer>
         <div>

@@ -2,6 +2,9 @@ const DELAY = 500;
 
 $(document).ready(function() {
 
+    var wow = new WOW();
+    wow.init();
+
     $("#menu").css("width", $(window).width() + "px");
 
     $(".site a").fancybox({

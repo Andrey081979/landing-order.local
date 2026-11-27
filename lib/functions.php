@@ -1,4 +1,5 @@
 <?php 
+
 $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 function getCell($query) {
@@ -34,7 +35,7 @@ function getTable($query) {
     $result_set = $mysqli->query($query);
     if (is_null($result_set)) return false;
     $result = array();
-    while ($row = $result_set->fetch_assoc() != false) {
+    while (($row = $result_set->fetch_assoc()) != false) {
         $result[] = $row;
     }
     $result_set->close();
@@ -61,7 +62,7 @@ function addRow($table, $data) {
 function setRow($table, $id, $data) {
     if (!is_numeric($id)) exit;
     global $mysqli;
-    $query = "UPDATE `table` SET ";
+    $query = "UPDATE `$table` SET ";
     foreach ($data as $key => $value) {
         $query .= "`$key` = ";
         if (is_null($value)) $query .= "null,";

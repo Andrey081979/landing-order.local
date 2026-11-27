@@ -1,3 +1,9 @@
+<?php 
+
+require_once "lib/start.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>

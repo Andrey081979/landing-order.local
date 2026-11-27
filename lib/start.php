@@ -9,6 +9,6 @@ define("DB_USER", "root");
 define("DB_PASSWORD", "");
 define("DB_NAME", "landing-order");
 
-require_once "/landing-order.local/lib/functions.php"
+require_once "lib/functions.php"
 
 ?>

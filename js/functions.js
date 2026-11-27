@@ -7,6 +7,10 @@ $(document).ready(function() {
 
     $("#menu").css("width", $(window).width() + "px");
 
+    $(window).on("resize", function() {
+        $("#menu").css("width", $(window).width() + "px");
+    });
+
     $(".site a").fancybox({
         minWidth: 900
     });

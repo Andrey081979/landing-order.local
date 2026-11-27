@@ -24,6 +24,7 @@ body {
     text-align: center;
     top:0;
     width: 100%;
+    z-index: 200;
 }
 
 #menu a {
@@ -285,7 +286,7 @@ footer p:nth-child(2) {
 
 footer > div {
     margin: 0 auto;
-    width: 980px;
+    width: 960px;
 }
 
 footer div div:nth-child(1) {
